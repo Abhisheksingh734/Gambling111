@@ -17,6 +17,7 @@ const deposit = ()=> {
             console.log("Enter a valid amount");
         }else{
             const numberDepostiAmount = parseFloat(depositAmount);
+            
             return numberDepostiAmount;
         }
     }
